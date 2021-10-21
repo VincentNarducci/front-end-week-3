@@ -1,0 +1,186 @@
+html {
+    background: var( --gray-dark);
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.blue-btn {
+    background-color: #00c3ff;
+    border: 1px solid #00c3ff;
+}
+
+.blue-btn:hover {
+    background-color: #00c3ffc9;
+    border: 1px solid #00c3ffc9;
+}
+
+.blue-btn-outline {
+    border: 1px solid #00c3ff;
+    color: #00c3ff;
+}
+
+.blue-btn-outline:hover {
+    background: #00c3ff;
+    color: #fff;
+    border: 1px solid #00c3ff;
+}
+
+.jumbotron {
+	margin-top: 50px;
+}
+
+.jumbotron .container {
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+
+#home-page .jumbotron{
+    background: url(images/modest-mouse.jpg);
+	background-size: cover;
+	background-position: center top;
+	color: #fff;
+}
+#moon .jumbotron {
+	background: url(images/the-moon-and-antarctica-banner.jpg);
+	background-size: cover;
+	background-position: center;
+    color: #fff;
+}
+
+#west .jumbotron {
+	background: url(images/the-lonesome-crowded-west-banner.jpg);
+	background-size: cover;
+	background-position: center;
+    color: #fff;
+}
+
+#drive .jumbotron {
+	background: url(images/this-is-a-long-drive-banner.jpg);
+	background-size: cover;
+	background-position: center bottom;
+    color: #fff;
+   
+}
+
+.main-content {
+	margin-top: 50px;
+}
+
+footer p {
+	text-align: right;
+	font-size: 12px;
+}
+
+#logo-text {
+	margin: 50px 0 0 10px;
+}
+
+.footer-container-fluid {
+	padding: 50px 0 10px 0;
+	background: var( --gray-dark );
+	color: #fff;
+}
+
+.footer-container {
+    padding: 0 0 40px 0;
+}
+
+a, footer a {
+	color: #00c3ff;
+}
+
+a:hover, footer a:hover {
+	color: #00c3ffc9;
+}
+
+footer ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.footer-heading {
+    margin-top: 20px;
+}
+
+#copyright {
+    margin-right: 20px;
+}
+
+.small-h3 {
+    font-size: 20px;
+}
+
+.footer-form, .header-form, .footer-form:focus, .header-form:focus {
+    background: #222;
+    border: 0px solid #222;
+
+}
+
+.form-control:focus {
+    color:#fff;
+
+}
+.form-control::placeholder{
+    color: #ccc;
+    font-style: italic;
+}
+
+.small-link {
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+#play-button {
+    width: 16px;
+    margin: 0 0 0 6px;
+}
+.album-image {
+    width: 100%;
+    border: 1px solid #eee;
+}
+
+.albums {
+    padding: 20px 0 100px 0;
+}
+
+.album-title {
+    font-size: 18px;
+    margin: 10px 0 0 0;
+}
+
+.album-year {
+    color: #777;
+}
+
+.albums a {
+    color: #212529;
+}
+
+a img {
+-moz-transition: all .5s;
+-webkit-transition: all .5s;
+transition: all .5s;
+}
+
+a:hover img {
+    -webkit-transform: scale(1.03);
+-moz-transform: scale(1.03);
+-o-transform: scale(1.03);
+-ms-transform: scale(1.03);
+transform: scale(1.03);
+}
+
+.dropdown-menu {
+    background-color: #222;
+}
+
+.dropdown-item{
+    color: #fff !important;
+}
+
+.dropdown-item:hover {
+    color: #fff !important;
+    background-color: #1d1d1d;
+}
